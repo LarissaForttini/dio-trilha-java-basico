@@ -7,7 +7,7 @@
                 // Solicitar número da conta
                 System.out.println("Por favor, digite o número da Conta !");
                 int numero = scanner.nextInt();
-                scanner.nextLine();  // Consumir a nova linha
+                scanner.nextLine();  
         
                 // Solicitar agência
                 System.out.println("Por favor, digite o número da Agência !");
@@ -21,7 +21,7 @@
                 System.out.println("Por favor, digite o saldo !");
                 double saldo = scanner.nextDouble();
         
-                // Exibir mensagem final
+                // Mensagem final
                 String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " 
                                   + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.";
                 System.out.println(mensagem);
