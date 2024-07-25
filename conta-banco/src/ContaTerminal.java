@@ -18,7 +18,7 @@
                 String nomeCliente = scanner.nextLine();
         
                 // Pedir saldo do Cliente
-                System.out.println("Por favor, digite o seu saldo");
+                System.out.println("Por favor, digite o saldo");
                 double saldo = scanner.nextDouble();
         
                 // Mensagem final
