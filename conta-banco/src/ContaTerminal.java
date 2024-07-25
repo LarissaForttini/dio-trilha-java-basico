@@ -5,7 +5,7 @@
                 Scanner scanner = new Scanner(System.in);
         
                 // Pedir número da conta
-                System.out.println("Por favor, digite o número da 933Conta.");
+                System.out.println("Por favor, digite o número da Conta.");
                 int numero = scanner.nextInt();
                 scanner.nextLine();  
         
