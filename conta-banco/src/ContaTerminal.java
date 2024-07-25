@@ -4,20 +4,20 @@
             public static void main(String[] args) throws Exception {
                 Scanner scanner = new Scanner(System.in);
         
-                // Solicitar número da conta
+                // Pedir número da conta
                 System.out.println("Por favor, digite o número da Conta !");
                 int numero = scanner.nextInt();
                 scanner.nextLine();  
         
-                // Solicitar agência
+                // Pedir número da agência
                 System.out.println("Por favor, digite o número da Agência !");
                 String agencia = scanner.nextLine();
         
-                // Solicitar nome do cliente
+                // Pedir nome do Cliente
                 System.out.println("Por favor, digite o nome do Cliente !");
                 String nomeCliente = scanner.nextLine();
         
-                // Solicitar saldo
+                // Pedir saldo do Cliente
                 System.out.println("Por favor, digite o saldo !");
                 double saldo = scanner.nextDouble();
         
